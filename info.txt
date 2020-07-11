@@ -1,0 +1,49 @@
+					HEADER
+
+-funcionando botão com collapse:
+
+
+<header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <img src="assets/img/hamburger.gif" alt="Menu">
+            </button>
+
+            <a href="#" class="navbar-brand flex-grow-1">
+                <img src="assets/img/logo.png" alt="logo Netflix" height="30" class="my-1 mx-2">
+            </a>
+
+            <form class="form-inline">
+                <input type="search" class="form-control" placeholder="Buscar">
+            </form>
+
+            <ul class="collapse navbar-nav mr-auto font-weight-bold" id="navbar">
+                <li class="media media-avatar">
+                    <img src="assets/img/avatar.jpg" alt="Avatar" class="mr-2">
+                    <div class="media-body">
+                        <p class="h6 m-0">Marcos Veloso</p>
+                        <small>Trocar de perfil</small>
+                    </div>
+                </li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item active"><a href="" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Filmes</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Séries</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Infantil</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Minha lista</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+

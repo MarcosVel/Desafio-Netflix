@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Netflix</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+
+            <button type="button" class="navbar-toggler d-lg-none" data-target="#navbar">
+                <img src="assets/img/hamburger.gif" alt="Menu">
+            </button>
+
+            <a href="#" class="navbar-brand flex-grow-1">
+                <img src="assets/img/logo.png" alt="logo Netflix" class="my-1 mx-2">
+            </a>
+
+            <ul class="nav text-white d-none d-lg-flex">
+                <!-- PARA TELA LG  -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset active d-xl-none">Navegar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-xl-none">Infantil</a>
+                </li>
+
+                <!-- PARA TELA XL  -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-none d-xl-flex active">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-none d-xl-flex">Séries</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-none d-xl-flex">Filmes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-none d-xl-flex">Adicionados recentemente</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-reset d-none d-xl-flex">Minha lista</a>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                <input type="search" class="form-control" placeholder="Buscar">
+            </form>
+
+            <!-- avatar para tela LG -->
+            <div class="media text-white p-2 d-none d-lg-flex" style="
+            align-items: center;">
+                <img src="assets/img/avatar.jpg" alt="Avatar" class="mr-2">
+                <div class="media-body">
+                    <p class="h6 m-0">Marcos Veloso</p>
+                </div>
+            </div>
+
+            <ul class="navbar-nav font-weight-bold sidebar" id="navbar">
+                <li class="media media-avatar">
+                    <img src="assets/img/avatar.jpg" alt="Avatar" class="mr-2">
+                    <div class="media-body">
+                        <p class="h6 m-0">Marcos Veloso</p>
+                        <a href="#" id="changePerfil"><small>Trocar de perfil</small></a>
+                    </div>
+                </li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item active"><a href="" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Filmes</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Séries</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Infantil</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Minha lista</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 full-banner">
+                    <div class="p-4">
+                        <div id="divInfoMov">
+                            <span class="titleMovie">Vingadores: Ultimato</span>
+                            <div class="infoMovie">
+                                <span class="mr-1">2019</span> 
+                                <span class="badge badge-warning mr-1" id="badgeIdade">12</span>
+                                <span>182min</span>
+                            </div>
+                            <div class="infoMovie descMovie d-none d-lg-block">
+                                <span id="sinopMov">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de
+                                    lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no
+                                    espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência
+                                    contra o titã louco.
+                                </span>
+                            </div>
+                            <button class="btn assistir mt-3">ASSISTIR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="pt-3 px-3 list-titles">
+                        <h2 class="h4 mb-0">Populares na Netflix</h2>
+                        <div class="d-flex flex-nowrap overflow-hidden">
+                            <a href="" class="pr-1 my-3"><img src="assets/img/capitao-america-o-primeiro-vingador.jpg"
+                                    alt="Capitão América" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/better-call-saul.jpg"
+                                    alt="Better Call Saul" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/greys-anatomy.jpg" alt="Greys Anatomy"
+                                    class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/homem-de-ferro-2.jpg"
+                                    alt="Homem de ferro 2" class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="pt-3 px-3 list-titles">
+                        <h2 class="h4 mb-0">Em alta</h2>
+                        <div class="d-flex flex-nowrap overflow-hidden">
+                            <a href="" class="pr-1 my-3"><img src="assets/img/guardios-da-galaxia.jpg"
+                                    alt="Capitão América" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/homem-de-ferro.jpg" alt="Better Call Saul"
+                                    class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/nosso-planeta.jpg" alt="Greys Anatomy"
+                                    class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/eu-sou-a-lenda.jpg" alt="Homem de ferro 2"
+                                    class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="pt-3 px-3 list-titles">
+                        <h2 class="h4 mb-0">Continuar assistindo</h2>
+                        <div class="d-flex flex-nowrap overflow-hidden">
+                            <a href="" class="pr-1 my-3"><img src="assets/img/nosso-planeta.jpg" alt="Capitão América"
+                                    class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/vingadores-era-de-ultron.jpg"
+                                    alt="Better Call Saul" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/the-rain.jpg" alt="Greys Anatomy"
+                                    class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/homem-de-ferro-2.jpg"
+                                    alt="Homem de ferro 2" class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="pt-3 pb-3 px-3 list-titles">
+                        <h2 class="h4 mb-0">Minha lista</h2>
+                        <div class="d-flex flex-nowrap overflow-hidden">
+                            <a href="" class="pr-1 my-3"><img src="assets/img/thor-o-mundo-sombrio.jpg"
+                                    alt="Capitão América" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/o-menino-que-descobriu-o-vento.jpg"
+                                    alt="Better Call Saul" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/capitao-america-o-primeiro-vingador.jpg"
+                                    alt="Greys Anatomy" class="w-100"></a>
+                            <a href="" class="pr-1 my-3"><img src="assets/img/homem-de-ferro-2.jpg"
+                                    alt="Homem de ferro 2" class="w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <ul id="listFooter" class="row list-unstyled list-titles p-4">
+            <li class="col-md-3"><a href="#" class="text-reset">Termos de uso</a></li>
+            <li class="col-md-3"><a href="#" class="text-reset">Declaração de privacidade</a></li>
+            <li class="col-md-3"><a href="#" class="text-reset">Preferências de cookies</a></li>
+            <li class="col-md-3"><a href="#" class="text-reset">Centro de ajuda</a></li>
+        </ul>
+
+        <p class="text-center mb-4" id="meLink">Developed by: <a href="https://www.linkedin.com/in/marcosveloso99/"
+                class="text-reset">Marcos Veloso</a></p>
+    </footer>
+
+
+
+    <script>
+
+        // NAVBAR 
+        const btn = document.querySelector('.navbar-toggler');
+        const navbar = document.querySelector('.navbar');
+
+        btn.addEventListener('click', e => {
+            navbar.classList.toggle('sidebar-open');
+
+
+            // adicionar o backdrop
+            if (navbar.classList.contains('sidebar-open')) {
+                const backdrop = document.createElement('div');
+                backdrop.classList.add('backdrop');
+
+                // clicando no backdrop fecha o sidebar
+                backdrop.addEventListener('click', e => {
+                    navbar.classList.remove('sidebar-open');
+                    document.querySelector('.backdrop').remove();
+                });
+
+                document.querySelector('body').append(backdrop);
+
+            } else {
+                document.querySelector('.backdrop').remove();
+            }
+
+        });
+
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
